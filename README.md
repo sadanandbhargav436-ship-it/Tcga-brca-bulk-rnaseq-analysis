@@ -60,16 +60,17 @@ source("scripts/02_analysis.R")
 
 ## Output
 
-The pipeline saves the following outputs in `results/`:
+The pipeline saves the following outputs in `data/` and `results/`:
 
 - `data/BRCA_SE_raw.rds`
 - `data/BRCA_counts_raw.rds`
 - `data/BRCA_clinical_raw.rds`
 - `data/BRCA_counts.rds`
 - `data/BRCA_clinical.rds`
-- `BRCA_DEA_results.csv`
-- `BRCA_DEA_top20.csv`
-- `BRCA_volcano.png`
-- `BRCA_heatmap_top50.png`
-- `BRCA_survival_summary.txt`
-- `BRCA_enrichment_results.csv`
+- `results/BRCA_DEA_results.csv`
+- `results/BRCA_DEA_top20.csv`
+- `results/BRCA_volcano.png`
+- `results/BRCA_heatmap_top50.png`
+- `results/BRCA_enrichment_results.csv`
+- `results/BRCA_survival_summary.txt`
+- `results/BRCA_survival_plot.png`
